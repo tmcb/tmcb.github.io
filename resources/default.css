@@ -1,0 +1,60 @@
+body {
+  margin: auto;
+  font-size: 14pt;
+  max-width: 42em;
+  padding: 0 1em;
+}
+
+* {
+  font-family: Times, "Times New Roman", serif;
+}
+
+body h1 {
+  padding: 1.5ex 0.1em;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: solid 1pt lightgray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: gray;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.75;
+  text-align: justify;
+  text-indent: 3em;
+}
+
+p:last-child:after {
+  color: lightgray;
+  content: '∎';
+  padding-left: 1em;
+}
+
+q {
+  font-style: oblique;
+}
+
+code {
+  background-color: whitesmoke;
+  font-size: smaller;
+  font-family: monospace;
+}
+
+blockquote {
+  padding: 1ex 1em 1ex 30%;
+  font-size: smaller;
+}
+
+blockquote p {
+  line-height: 1.5;
+}
+
+blockquote footer {
+  text-indent: 4em; 
+}
+
+/* vim::tw=72 sts=2 sw=2 et ai
+*/

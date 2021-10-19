@@ -1,0 +1,15 @@
+#copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  margin: 1em;
+  margin-bottom: 3em;
+  text-align: center;
+  font-size: smaller;
+  font-style: oblique;
+}
+
+/* vim::tw=72 sts=2 sw=2 et ai
+*/
